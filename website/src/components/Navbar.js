@@ -1,21 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 export default function Navbar() {
-  return (
-    <header className='flex justify-end bg-black border-y-4 border-red'>
-        <div className='flex'>
-            <a href="mailto:ronan.virmani@ufl.edu" className="mr-4">
-                <img src="../../public/email-icon.jpeg" alt="Email Logo" className="w-14 h-14"></img>
+    return (
+        <header className='flex justify-end bg-white flex-row p-8 
+        sticky top-0 font-bold text-md shadow-lg'>
+            <a className='px-8' href="#home">
+                HOME
             </a>
-            <a href="https://www.linkedin.com/in/ronan-virmani-uf/" className="mr-4">
-                <img  src="https://www.linkedin.com/favicon.ico" alt="LinkedIn Logo" className="w-14 h-14"></img>
+            <a className='px-8' href="#about">
+                ABOUT
             </a>
-            <a href="https://github.com/ronanvirmani">
-                <img src="https://github.com/github.png" alt="GitHub Logo" className="w-14 h-14"></img>
+            <a className='px-8' href="#projects">
+                PROJECTS
             </a>
-        </div>
-    </header>
-
-  )
+            <a className='px-8' href="#contact">
+                CONTACT
+            </a>
+        </header>
+    );
 }
-
