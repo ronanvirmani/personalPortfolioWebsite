@@ -26,7 +26,7 @@ export default function HobbyHub() {
                         </div>
                     </div>
                     <a className='w-1/2 hover:border-purple hover:border-2 hover:rounded-xl'
-                    href="https://book-markd.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    href="https://celadon-pasca-504049.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img src={image} alt="Preview" 
                         className="w-11/12 h-auto my-8 mx-10 rounded-xl border-2 border-white" />
                     </a>
