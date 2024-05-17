@@ -22,17 +22,14 @@ export default function Home() {
     }, []);
 
     return (
-        <div ref={homeRef} id="home" className='flex h-screen justify-center 
-        items-center flex-col bg-gray-100'>
-            <h1 className='text-6xl flex font-bold'>
+        <div ref={homeRef} id="home" className='flex h-screen justify-center items-center flex-col bg-gray-100 p-4 sm:p-8'>
+            <h1 className='text-4xl sm:text-6xl font-bold text-center'>
                 HEY, I'M RONAN VIRMANI
             </h1>
-            <p className='flex p-5 text-2xl'>
+            <p className='text-lg sm:text-xl text-center mt-4'>
                 I'm a full-stack developer.
             </p>
-            <a className='flex bg-purple mt-5
-            py-3 px-12 rounded-md text-white 
-            text-xl font-bold'  
+            <a className='mt-5 py-2 px-8 sm:py-3 sm:px-12 rounded-md bg-purple text-white text-lg sm:text-xl font-bold text-center hover:bg-purple-700 transition duration-300'  
                 href="#projects">
                 PROJECTS
             </a>
