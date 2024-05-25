@@ -15,7 +15,7 @@ export default function BookMarkd() {
             <div className='lg:w-1/2 flex flex-col my-12'>
                 <a href='https://github.com/ronanvirmani/BookMarkd' 
                     target="_blank" rel="noopener noreferrer">
-                    <h2 className='text-2xl font-bold hover:text-purple'>
+                    <h2 className='text-2xl font-bold hover:text-purple underline'>
                         Book Mark'd
                     </h2>
                 </a>
