@@ -27,7 +27,7 @@ export default function HobbyHub() {
             </div>
             <div className='lg:w-1/2 p-4 lg:p-0'>
                 <a className='block hover:border-purple hover:border-2 hover:rounded-xl'
-                    href="https://celadon-pasca-504049.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    href="https://master--harmonious-florentine-0617fc.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img src={image} alt="Preview"
                         className="w-full h-auto my-8 lg:my-0 rounded-xl border-2 border-white" />
                 </a>
