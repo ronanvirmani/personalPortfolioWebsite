@@ -33,9 +33,8 @@ export default function About() {
                     </div>
                     <h1 className='mt-12 mb-8 font-bold text-3xl text-center lg:text-left'> Relevant Classes</h1>
                     <p className='text-lg text-center lg:text-left'> 
-                        Data Structures and Algorithms, Computer Organization and Architecture, 
-                        Operating Systems, Software Engineering, Database Management Systems, 
-                        Web Development, Mobile App Development, and more.
+                    Data Structures and Algorithms, Software Engineering, Internet Programming, Operating Systems, Computer
+Organization, Networking Fundamentals, AI Fundamentals, Natural Language Processing, and Statistics
                     </p>
                 </div>
             </div>
